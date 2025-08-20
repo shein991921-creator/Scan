@@ -1,6 +1,6 @@
 
 var qrcode = new QRCode(document.getElementById("qrcode"), {
-    text: "https://htoohe.github.io/My-site/Fun.mp4",
+    text: "https://shein991921-creator.github.io/Scan/itch.mp4",
     width: 200,
     height: 200,
     colorDark : "#000000",
