@@ -6,26 +6,26 @@
   <title>Special Gift Video</title>
   <style>
     body {
-      margin:0;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      height:100vh;
-      background:#000;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #000;
     }
     video {
-      width:100%;
-      height:100%;
-      object-fit:contain;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     }
   </style>
 </head>
 <body>
-  <video controls autoplay>
-  <score video src="itch.mp4">
-    Your browser does not support video.
-  </video>
+
+  <!-- 🎁 Your video -->
+  <video src="itch.mp4" autoplay muted controls></video>
+
 </body>
 </html>
-
-
